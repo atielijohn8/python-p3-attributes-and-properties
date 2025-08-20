@@ -39,12 +39,3 @@ class Dog:
         else:
             print("Breed must be in list of approved breeds.")
 
-dog1 = Dog("Buddy", "Beagle")
-print(dog1.name)   # Buddy
-print(dog1.breed)  # Beagle
-
-dog2 = Dog("X", "Wolf")
-# Output: Breed must be in list of approved breeds.
-
-dog3 = Dog(123, "Pug")
-# Output: Name must be string between 1 and 25 characters.
